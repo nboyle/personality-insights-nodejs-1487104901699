@@ -1,9 +1,7 @@
----
 applications:
-- name: personality-insights-livedemo
+- services:
+  - my-service-instance
+  name: lemonaidweb
   command: npm start
   path: .
   memory: 512M
-  instances: 1
-  services:
-  - my-pi-service
